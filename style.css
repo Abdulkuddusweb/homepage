@@ -1,0 +1,40 @@
+body {
+  background: url(pexels-rizknas-2835562.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bouncing_ball {
+  width: 29px;
+  height: 54px;
+  border-radius: 33%;
+  border: 2px solid white;
+  animation-name: hhh;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.bg {
+  width: 30px;
+  margin: auto;
+  margin-top: 225px;
+}
+
+.bouncing_ball_inner {
+  width: 10px;
+  height: 24px;
+  background: orange;
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 31px;
+}
+
+@keyframes hhh {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
